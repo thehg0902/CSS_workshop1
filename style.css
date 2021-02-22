@@ -1,0 +1,284 @@
+body{
+  margin: 0px;
+color: black;
+overflow-x: hidden;;
+}
+/*
+.gridcontainer {
+  display: grid;
+  margin: 0 auto;
+  justify-content: center;
+  grid-template-rows: 4;
+  grid-template-columns: 100px 100px;
+
+}*/
+p{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.headders{
+  font-size: 50px;
+  color: white;
+  background-color: #0f0f0f;
+  background-image: url("assets/bg1.jpg");
+  background-blend-mode: overlay;
+  margin: 0px;
+  height:100vh;
+  width: auto;
+  margin-top:0px;
+  padding: 0px;
+  text-align:center;
+
+}
+.start{
+  border:1px solid #66FCF1;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  outline: none;
+  transition: 1s;
+  width: 250px;
+  height: auto;
+}
+.btn1{
+  color: #66FCF1;
+}
+.start:hover{
+  color: white;
+  background: #66FCF1;
+}
+
+
+
+
+.head_container{
+  width: 80% ;
+  margin-left: 100px;
+  color: white;
+  text-shadow: #9c9c9c 1px 0 15px;
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.headder_text{
+  color: white;
+  text-shadow: #9c9c9c 1px 0 15px;
+  font-family: 'Anton', sans-serif;
+  font-size: 35px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0px;
+  padding-left: 20px;
+  text-align: center;
+}
+.details{
+  color: white;
+  /*text-shadow: #9c9c9c 1px 0 15px;*/
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+  margin-left: 10vh;
+  margin-right: 50px;
+  margin-top: 0px;
+  text-align: left;
+}
+.headder_img{
+  height:auto;
+  max-width:100%;
+  width:500px;
+  float:right;
+  padding-right:0px;
+  padding-top: 100px;
+  margin-left:100px;
+}
+
+
+#scrollDown{
+  background-image: url("assets/down.png");
+  background-size: cover;
+
+  position: sticky;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+}
+#scrollDown:hover{
+  background-image: url("assets/down.png");
+  background-color: #999999;
+  background-blend-mode:multiply;
+}
+#scrollDown:active{
+  background: black;
+}
+
+
+#scrollTop{
+  background-image: url("assets/home.png");
+  background-size: cover;
+  position:fixed;
+  width:60px;
+  height:60px;
+  border-radius: 50%;
+  outline:none;
+  cursor: pointer;
+  right:10px;
+  bottom: 80px;
+}
+#scrollTop:hover{
+  background-image: url("assets/home.png");
+  background-color: #999999;
+  background-blend-mode:multiply;
+}
+
+
+
+
+
+#scrollNext{
+  background-image: url("assets/up.png");
+  background-size: cover;
+  position:fixed;
+  width:60px;
+  height:60px;
+  border-radius: 50%;
+  outline:none;
+  cursor: pointer;
+  right:10px;
+  bottom: 150px;
+}
+#scrollNext:hover{
+  background-image: url("assets/up.png");
+  background-color: #999999;
+  background-blend-mode:multiply;
+}
+
+
+
+
+#scrollPrev{
+  background-image: url("assets/next.png");
+  background-size: cover;
+  position:fixed;
+  width:60px;
+  height:60px;
+  border-radius: 50%;
+  outline:none;
+  cursor: pointer;
+  right:10px;
+  bottom: 10px;
+}
+#scrollPrev:hover{
+  background-image: url("assets/next.png");
+  background-color: #999999;
+  background-blend-mode:multiply;
+}
+
+
+
+
+.banner{
+display: grid;
+height: 10vh;
+width: 100%;
+top:0px;
+grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% ;
+position: relative;
+border-radius: 20%;
+
+}
+.stickTop{
+  position: fixed;
+}
+.banner > div{
+  background: #0d1e4d;
+
+}
+.banner > div:nth-child(odd){
+  background:#1e2f5e;
+}
+.bantext{
+  align-items: center;
+}
+#bannerButton{
+  background-color: #45A29E;
+  width: 100%;
+  color: white;
+  text-align: center;
+  height:100%;
+  border:none;
+  outline-color: invert;
+  cursor: pointer;
+}
+#bannerButton:hover{
+background-color: #1b3787
+}
+
+
+h1{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.opening{
+  min-height: 60vh;
+  margin: 0px;
+  width: auto;
+  background-color: #C5C6C7;
+}
+.openingHead{
+text-align: center;
+background-color: #C5C6C7;
+margin: 0px;
+padding: 0px;
+height: auto;
+font-size:35px;
+}
+.openingContent{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  display: grid;
+  background-color: #191d29;
+  grid-template-columns: 45% 10% 45%;
+}
+.text{
+  font-family: 'Comfortaa', cursive;
+  font-size: 30px;
+  line-height: 50px;
+  color: white;
+  width: auto;
+  height: auto;
+}
+.dtext{
+  font-family: 'Comfortaa', cursive;
+  font-size: 30px;
+  line-height: 50px;
+  color: black;
+  width: auto;
+  height: auto;
+}
+
+section{
+  min-height: 100vh;
+  height: auto;
+  padding: 100px;
+  padding-top: 250px;
+
+  background: #191d29;
+}
+section:nth-child(1){
+  background: #191d29;
+  min-height: 100vh;
+  height: auto;
+}
+section:nth-child(odd){
+  background: #C5C6C7;
+
+}
