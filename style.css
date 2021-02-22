@@ -25,11 +25,13 @@ p{
   background-image: url("assets/bg1.jpg");
   background-blend-mode: overlay;
   margin: 0px;
-  height:100vh;
+  height:100vh ;
+
   width: auto;
   margin-top:0px;
   padding: 0px;
   text-align:center;
+  background-size: cover;
 
 }
 .start{
